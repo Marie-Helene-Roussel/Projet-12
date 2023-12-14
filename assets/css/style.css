@@ -1,10 +1,4 @@
-/**
-* Template Name: Kelly
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 /*--------------------------------------------------------------
 # General
@@ -592,7 +586,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# Qui je suis
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
@@ -623,6 +617,21 @@ section {
   text-decoration: underline solid 1px #34b7a7;
   color: #34b7a7;
 }
+
+/* liste dans la partie cv*/
+.listeul{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: 600;
+  color: #888888;
+  white-space: nowrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+}
+
 
 /*--------------------------------------------------------------
 # Skills
